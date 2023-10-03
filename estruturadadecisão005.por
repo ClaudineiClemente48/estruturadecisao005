@@ -1,9 +1,9 @@
 /*
 Mini calculadora
 Este exemplo demonstra o uso do desvio condicional para criar mini calculadora. 
-O programa pede ao usuárioque informe dois número reais e a operação a ser executada entre
-estes números (soma, divisão, etc.). Por fim, é exibido o valor resultante da operaçãoentre
-os dois número.
+O programa pede ao usuï¿½rioque informe dois nï¿½mero reais e a operaï¿½ï¿½o a ser executada entre
+estes nï¿½meros (soma, divisï¿½o, etc.). Por fim, ï¿½ exibido o valor resultante da operaï¿½ï¿½oentre
+os dois nï¿½mero.
 */
 
 programa 
@@ -14,18 +14,18 @@ programa
 
     real resultado = 0.0, operando1, operando2
 
-    escreva("Digite o primeiro número: ")
+    escreva("Digite o primeiro numero: ")
     leia(operando1)
 
-    escreva("Digite o segundo número: ")
+    escreva("Digite o segundo numero: ")
     leia(operando2)
 
     escreva("\n")
 
-    escreva("Agora digite uma das operações ( + - * / ): ")
+    escreva("Agora digite uma das operacoes ( + - * / ): ")
     leia(operador)
 
-    /*Verifica qual foi a operação selecionada */
+    /*Verifica qual foi a operacoes selecionada */
 
     se (operador== '+'){
       resultado = operando1 + operando2
